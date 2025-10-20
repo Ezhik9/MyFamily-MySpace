@@ -8,9 +8,9 @@
     box-sizing: border-box;
 }
 .back {
-    background-image: url(i.webp);
-    height:1080px;
-    width:1920px;
+    background-image: url(Background/i.webp);
+    width: 100dvw;
+    height: 100dvh;
     background-repeat: no-repeat;
     background-attachment:fixed;
     /* overflow: hidden; */
@@ -45,7 +45,7 @@ header {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
- 
+    margin-bottom: 75px;
 }
 .navigation {
     display: flex;
@@ -54,7 +54,6 @@ header {
     background-color: white;
     width: auto;
     height: auto;
-    gap: 80px;
     font-size: var(--main-font);
     border: 5px solid darkblue;
     margin: 0 auto;
@@ -62,9 +61,13 @@ header {
 .list {
     display: flex;
     gap: 20px;
+    margin-right: 20px;
+}
+.list a {
+    text-decoration: none;
 }
 .list li {
-list-style-type: none;
+    list-style-type: none;
 }
 
 .navigation_title {
@@ -76,9 +79,10 @@ list-style-type: none;
     background-color: lightblue;
     color: white;
     font-size: var(--main-font);
-    width: 250px;
+    width: 235px;
     cursor: pointer;
     border: none;
+    margin-right: 10px;
 }
 /* @media (min-width: 780px) {
     .logo {
@@ -92,8 +96,22 @@ list-style-type: none;
     
 } */
 .button_slide {
-display: flex;
-
+    display: flex;
+    width: 10dvw;
+    height: 5dvh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border: 2px dotted white;
+    color: white;
+    background-color: black;
+}
+.button_slide:hover {
+    cursor: pointer;
+    background-color: white;
+    border: 5px solid black;
+    color: black;
 
 }
 .slyder{
@@ -102,10 +120,16 @@ display: flex;
     align-items: center;
     flex-flow: row  nowrap;
 }
+.contest {
+    width: 50dvw;
+    height: 50dvh;
+    border: 5px dashed white;
+    margin: 20px
+}
 .text_slider {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    color: white;
 }
