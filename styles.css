@@ -1,9 +1,20 @@
 :root {
-    --main-color: #5F7093;
+    /* --main-color: #5F7093; */
     --main-font: 30px;
 }
+
 * {
     margin: 0;
+    box-sizing: border-box;
+}
+.back {
+    background-image: url(i.webp);
+    height:1080px;
+    width:1920px;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    /* overflow: hidden; */
+    background-size: cover;
 }
 header {
     position: relative;
@@ -30,25 +41,32 @@ header {
     gap: 20px;
 }
 .inside {
+    position: relative;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    margin: 0 auto;
+ 
 }
 .navigation {
-    position: absolute;
     display: flex;
-    justify-content: center;
+    /* justify-content: space-between; */
     align-items: center;
     background-color: white;
     width: auto;
     height: auto;
-    gap: 20px;
+    gap: 80px;
     font-size: var(--main-font);
     border: 5px solid darkblue;
+    margin: 0 auto;
 }
 .list {
     display: flex;
     gap: 20px;
 }
+.list li {
+list-style-type: none;
+}
+
 .navigation_title {
     font-size: 40px;
 }
@@ -73,3 +91,21 @@ header {
 }
     
 } */
+.button_slide {
+display: flex;
+
+
+}
+.slyder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row  nowrap;
+}
+.text_slider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
