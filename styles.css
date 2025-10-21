@@ -45,7 +45,7 @@ header {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    margin-bottom: 75px;
+    margin-bottom: 20px;
 }
 .navigation {
     display: flex;
@@ -179,10 +179,13 @@ header {
     justify-content: center;
     gap: 10px;
     background-color: var(--main-color);
+    border-bottom: 5px dashed white;
+    padding-bottom: 10px;
 }
 .login_text {
     display: flex;
     color: white;
+    margin-top: 20px;
 }
 form {
     display: flex;
@@ -190,14 +193,28 @@ form {
     align-items: flex-start;
     margin-top: 10px;
     width: 750px;
-    height: 250px;
+    height: auto;
     /* border: 1px solid white; */
     color: white;
 }
 #about {
-    display: flex;
-    justify-content: space-around;
+    gap: 20px;
     background-color: var(--main-color);
+    padding-top: 20px;
+    height: 60dvh;
+}
+.inside_about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+}
+.title_about {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+    margin-bottom: 20px;
 }
 .text_about {
     display: flex;
