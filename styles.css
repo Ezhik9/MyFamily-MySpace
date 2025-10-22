@@ -253,12 +253,18 @@ form {
     align-items: center;
     flex-direction: column;
     background-color: var(--main-color);
-    color: white
+    color: white;
+    padding-bottom: 20px;
+}
+.top_contests {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 50px;
+    margin-bottom: 40px;
 }
 .contests_title {
     font-size: var(--main-font);
-    margin-bottom: 20px;
-    align-items: flex-start;
 }
 .grid_contests {
     display: grid;
@@ -285,5 +291,33 @@ form {
     background-color: black;
     border: 2px dashed white;
     color: white;
-    
+    transform: translateY(-35px)
+}
+.entry:hover {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+}
+#review {
+    background-color: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.title_review {
+    align-items: flex-start;
+}
+.avatar1 {
+    width: 50px;
+    height: 50px;
+}
+.review_1 {
+    border: 2px solid grey;
+    border-radius: 15px;
+    background-color: white;
+    width: 30dvw;
+    height: auto;
+    padding-left: 5px;
+    color: black;
 }
