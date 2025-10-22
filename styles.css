@@ -176,11 +176,12 @@ header {
 }
 #login {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 10px;
     background-color: var(--main-color);
     border-bottom: 5px dashed white;
     padding-bottom: 10px;
+    padding-left: 20px;
 }
 .login_text {
     display: flex;
@@ -226,4 +227,63 @@ form {
 .family {
     width: 40dvw;
     height: 50dvh;
+}
+#greetings {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--main-color);
+    color: white;
+    padding-bottom: 30px;
+}
+.title {
+    display: flex;
+    font-size: var(--main-font);
+    margin-bottom: 20px;
+}
+.video {
+    display: flex;
+    width: 50dvw;
+    height: 47dvh;
+    background-color: black;
+    border: 3px dashed white;
+}
+#contests {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--main-color);
+    color: white
+}
+.contests_title {
+    font-size: var(--main-font);
+    margin-bottom: 20px;
+    align-items: flex-start;
+}
+.grid_contests {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    border: 2px dotted white;
+    align-content: flex-end;
+    align-items: center;
+    justify-items: center;
+    gap: 50px;
+    width: 70dvw;
+    height: 90dvh;
+}
+.grid_item {
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 100%;
+}
+.grid_img {
+    width: 20dvw;
+    height: 30dvh;
+}
+.entry {
+    background-color: black;
+    border: 2px dashed white;
+    color: white;
+    
 }
