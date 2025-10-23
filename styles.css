@@ -177,11 +177,12 @@ header {
 #login {
     display: flex;
     justify-content: flex-start;
-    gap: 10px;
+    gap: 20px;
     background-color: var(--main-color);
     border-bottom: 5px dashed white;
     padding-bottom: 10px;
     padding-left: 20px;
+    font-size: var(--main-font);
 }
 .login_text {
     display: flex;
@@ -197,6 +198,13 @@ form {
     height: auto;
     /* border: 1px solid white; */
     color: white;
+    /* font-size: var(--main-font); */
+}
+button {
+    font-size: 20px;
+}
+input {
+    height: 25px;
 }
 #about {
     gap: 20px;
@@ -260,6 +268,7 @@ form {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    align-items: center;
     gap: 50px;
     margin-bottom: 40px;
 }
@@ -292,7 +301,8 @@ form {
     border: 2px dashed white;
     color: white;
     cursor: pointer;
-    transform: translateY(-35px)
+    height: 50px;
+    transform: translateY(-50px)
 }
 .entry:hover {
     background-color: white;
@@ -310,6 +320,10 @@ form {
     display: flex;
     align-items: flex-start;
     margin-bottom: 10px;
+}
+.inside_review {
+    display: flex;
+    flex-direction: row;
 }
 .avatar1 {
     width: 50px;
@@ -347,8 +361,26 @@ form {
     color: black;
     opacity: 0.75;
     z-index: 0;
+    transform: translateX(100px);
 }
 .avatar2 {
+    width: 50px;
+    height: 50px;
+}
+.review_3 {
+    border: 2px solid grey;
+    border-radius: 15px;
+    background-color: white;
+    width: 27dvw;
+    height: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: black;
+    opacity: 0.75;
+    z-index: 0;
+    transform: translateX(-100px);
+}
+.avatar3 {
     width: 50px;
     height: 50px;
 }
