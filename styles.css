@@ -176,12 +176,11 @@ header {
 }
 #login {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 20px;
     background-color: var(--main-color);
     border-bottom: 5px dashed white;
     padding-bottom: 10px;
-    padding-left: 20px;
     font-size: var(--main-font);
 }
 .login_text {
@@ -189,12 +188,12 @@ header {
     color: white;
     margin-top: 20px;
 }
-form {
+#login form {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin-top: 10px;
-    width: 750px;
+    width: auto;
     height: auto;
     /* border: 1px solid white; */
     color: white;
@@ -339,6 +338,7 @@ input {
     padding-right: 5px;
     color: black;
     z-index: 1;
+    font-size: larger;
 }
 .review-top {
     display: flex;
@@ -362,6 +362,8 @@ input {
     opacity: 0.75;
     z-index: 0;
     transform: translateX(100px);
+    cursor: pointer;
+    font-size: larger;
 }
 .avatar2 {
     width: 50px;
@@ -379,8 +381,66 @@ input {
     opacity: 0.75;
     z-index: 0;
     transform: translateX(-100px);
+    cursor: pointer;
+    font-size: larger;
 }
 .avatar3 {
     width: 50px;
     height: 50px;
+}
+#news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--main-color);
+    font-size: var(--main-font);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#news h1 {
+    color: white;
+    font-size: var(--main-font);
+    margin-bottom: 20px;
+}
+#news form {
+    display: flex;
+    flex-direction: column;
+    width: 25dvw;
+    align-items: flex-start;
+    color: white;
+    gap: 10px;
+}
+#email_news {
+    font-size: large;
+}
+.inside_news {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    font-size: large;
+}
+#subscribe {
+    height: 20px;
+    width: 20px;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.footer_left {
+    gap: 10px;
+}
+footer a {
+    text-decoration: none;
+    color: aqua;
+}
+footer li {
+    list-style-type: none;
+    margin-bottom: 10px;
 }
