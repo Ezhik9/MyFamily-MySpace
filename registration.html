@@ -10,7 +10,7 @@
     <header>
         <div class="header1">
             <img src=".\Logo\LogoSpace.png" alt="Logo" class="logo">
-            <p>Моя семья - Мой космос</p>
+            <a href="index.html">Моя семья - Мой космос</a>
         </div>
         <p>Какой-то текст с описанием сайта</p>
     </header>
@@ -47,6 +47,26 @@
                     <label for="checkbox">Я даю согласие на обработку своих персональных данных</label>
                 </div>
             <button>Зарегистрироваться</button>
+            <br>
+            <!-- <form action="" method="post">
+                <button id="btn">+ Член семьи</button>
+            </form> -->
+        </form>
+        <form action="" method="post">
+            <button id="btn">+ Член семьи</button>
+            <div class="add">
+                <label for="surname">Фамилия</label>
+                <input type="text" name="surname" id="surname" placeholder="Иванов">
+                <label for="name">Имя</label>
+                <input type="text" name="name" id="name" placeholder="Иван">
+                <label for="age">Возраст</label>
+                <input type="number" name="age" id="age" placeholder="20" min="0" max="120">
+                <label for="gender">Выберите пол</label>
+                <select name="myList">
+                    <option value="value1">Мужской</option>
+                    <option value="value2">Женский</option>
+                </select>
+            </div>
         </form>
     </section>
 </body>
