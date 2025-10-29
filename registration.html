@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration</title>
-    <link rel="stylesheet" href="style-registration.css">
+    <link rel="stylesheet" href=".\Style\style-registration.css">
 </head>
 <body>
     <header>
         <div class="header1">
-            <img src=".\Logo\LogoSpace.png" alt="Logo" class="logo">
+            <img src=".\Style\Logo\LogoSpace.png" alt="Logo" class="logo">
             <a href="index.html">Моя семья - Мой космос</a>
         </div>
         <p>Какой-то текст с описанием сайта</p>
@@ -26,14 +26,10 @@
             <label for="age">Возраст</label>
             <input type="number" name="age" id="age" placeholder="20" min="0" max="120">
                 <label for="gender">Пол</label>
-                <div class="gender">
-                    <input type="radio"  name="gender" id="gender">
-                    <label for="gender">Жен</label>
-                </div>
-                <div class="gender">
-                    <input type="radio"  name="gender" id="gender">
-                    <label for="gender">Муж</label>
-                </div>
+                <select name="myList">
+                    <option value="value1">Мужской</option>
+                    <option value="value2">Женский</option>
+                </select>
                 <label for="password">Пароль</label>
                 <input type="password" name="password" id="password">
                 <label for="password">Повторите пароль</label>

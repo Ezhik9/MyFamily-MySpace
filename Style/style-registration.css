@@ -64,12 +64,8 @@ form {
 input {
     width: 30dvw;
 }
-.gender {
-    display: flex;
-    flex-direction: row;
-}
-.gender input {
-    width: 10dvw;
+select {
+    width: 30dvw;
 }
 .photo {
     display: flex;

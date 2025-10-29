@@ -43,3 +43,20 @@ title {
     font-size: var(--title-font);
     color: white;
 }
+.grid-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 2fr, repeat(12, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    border: 1px solid white;
+    color: white;
+    gap: 10px;
+    width: auto;
+}
+.grid-item {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: var(--main-font);
+
+}
