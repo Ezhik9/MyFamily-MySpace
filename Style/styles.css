@@ -1,6 +1,6 @@
 :root {
     /* --main-color: #5F7093; */
-    --main-font: 30px;
+    --main-font: 1vmin;
     --main-color: #0f2b5e;
 }
 
@@ -71,7 +71,7 @@ header {
 }
 
 .navigation_title {
-    font-size: 40px;
+    font-size: 1.5vmin;
 }
 .change {
     display: flex;
@@ -84,17 +84,20 @@ header {
     border: none;
     margin-right: 10px;
 }
-/* @media (min-width: 780px) {
-    .logo {
-    width: 5px;
-    height: 5px;
+@media (min-width: 780px) {
+    /* :root {
+        --main-font: 16px;
+    } */
+    .inside {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-@media (min-width: 1920px) {
-    
-}
+/* @media (min-width: 1920px) {
     
 } */
+    
+}
 .button_slide {
     display: flex;
     width: 10dvw;
